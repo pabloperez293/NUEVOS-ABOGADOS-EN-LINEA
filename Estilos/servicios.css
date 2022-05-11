@@ -163,14 +163,18 @@ width: 100px;
     
 @media screen and (max-width:320px) {
       
+    .nav{
+        display: flex ;
+        flex-direction: column;
+    }
     .header{
+        width: auto;
         background-color: aqua;
     }
     .nav__lista{
         list-style: none;
-        flex-direction: row;
-        justify-content: space-around;
-        gap: 5px;
+        flex-direction: column;
+        display: flex;
     }
     main div h2{
         color: darkgreen;
