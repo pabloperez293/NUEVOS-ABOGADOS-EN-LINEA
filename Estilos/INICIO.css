@@ -127,6 +127,21 @@ text-align: right;
     text-decoration: none;
 }
 
+.section3{
+    margin: 30px;
+    padding: 15px;
+    border: 5px solid black;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
+.section1__enlace{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+
+}
+
 .footer{
     background-color: #000;
     color: #fff;
